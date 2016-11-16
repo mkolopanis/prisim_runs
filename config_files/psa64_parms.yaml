@@ -33,7 +33,7 @@ dirstruct:
                                 # rootdir. Will be created if it
                                 # does not exist
 
-    simid       : 'PSA64_3src_test'
+    simid       : 'PSA64_csm'
                                 # Simulation ID type. Creates a
                                 # folder to store results of
                                 # simulation. Accepted values
@@ -569,7 +569,7 @@ snapshot :                      # Parameters below are mutually
 
 fgparm   :
 
-    model           : 'custom'
+    model           : 'csm'
                                 # Foreground model. Accepted values
                                 # are 'csm' (NVSS+SUMSS point sources), 
                                 # 'dsm' (diffuse emission), 'asm' (both
