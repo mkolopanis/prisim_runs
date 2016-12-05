@@ -33,7 +33,7 @@ dirstruct:
                                 # rootdir. Will be created if it
                                 # does not exist
 
-    simid       : 'HERA_19_gleam_lst05_30min'
+    simid       : 'HERA_19_gleam'
                                 # Simulation ID type. Creates a
                                 # folder to store results of
                                 # simulation. Accepted values
@@ -117,7 +117,7 @@ array   :                       # Parameters 'file' and 'layout'
                                 # not have to compute the unique
                                 # baselines
 
-    layout          : 'HERA-19'
+    layout          : null
                                 # Accepted values are 'MWA-128T',
                                 # 'HERA-7', 'HERA-19', 'HERA-37',
                                 # 'HERA-61', 'HERA-91', 'HERA-127',
@@ -125,12 +125,12 @@ array   :                       # Parameters 'file' and 'layout'
                                 # 'HERA-331', 'CIRC', or null
                            
 
-    file            : null
+    file            : 'hsa7458_v000_HH_ant_layout.txt'
                                 # File containing antenna locations
                                 # parsed according to info in
                                 # parse_info
 
-    filepathtype    : 'defualt'
+    filepathtype    : '/data5/HERA/simulations/'
                                 # If set to 'default', only filename
                                 # should be specified in file and it
                                 # will be searched in the default 
@@ -511,7 +511,7 @@ pointing :                      # If pointing file is specified to be
         az          : null
                                 # Azimuth of telescope pointing (degrees)
 
-        ha          : 30.0
+        ha          : 0
                                 # Hour angle of telescope pointing
                                 # (degrees). Only one of the Alt-Az or
                                 # HA-Dec pairs must be specified and the
