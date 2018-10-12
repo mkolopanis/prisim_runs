@@ -8,7 +8,7 @@ antenna:
   shape: gaussian
   size: 13.323263876592053
 array:
-  file: /data3/t_nithyanandan/project_pyuvsim/ref_sim_parms/telescope_config/baseline_lite.csv
+  file: ./telescope_config/baseline_lite.csv
   filepathtype: custom
   layout: null
   maxR: 141.0

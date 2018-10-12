@@ -8,7 +8,7 @@ antenna:
   shape: delta
   size: 14.0
 array:
-  file: /data3/t_nithyanandan/project_pyuvsim/ref_sim_parms/telescope_config/mwa_nocore_layout.csv
+  file: ./telescope_config/mwa_nocore_layout.csv
   filepathtype: custom
   layout: null
   maxR: 141.0
